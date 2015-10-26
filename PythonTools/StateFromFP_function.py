@@ -101,3 +101,5 @@ def state( fpcode):
         return "WI"
     elif fpcode == '56':
         return "WY"
+    else:
+        return "Not a CONUS FP code."
