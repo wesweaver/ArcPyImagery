@@ -1,3 +1,4 @@
+#Simple function to derive state abbreviation from FP code
 def state( fpcode):
     if fpcode == '01':
         return "AL"

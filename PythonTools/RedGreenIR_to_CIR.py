@@ -66,4 +66,4 @@ try:
 	shutil.rmtree(os.path.join(outPath, "temp"))
 except Exception as e:
 	arcpy.AddError(e.message)
-	arcpy.AddMessage("Temporary file deletion failed. Please delete temporary files from" + os.path.join(outPath, "temp"))
+	arcpy.AddMessage("Temporary file deletion failed. Please delete temporary files from " + os.path.join(outPath, "temp"))
