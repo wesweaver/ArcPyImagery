@@ -1,7 +1,7 @@
 import arcpy
 import os
 
-#KML TO DXF
+# KML TO DXF
 # For vector KMLs only
 
 inKML = arcpy.GetParameterAsText(0)
